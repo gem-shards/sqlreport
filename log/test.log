@@ -1,0 +1,380 @@
+# Logfile created on 2025-03-09 11:41:46 +0100 by logger.rb/v1.6.6
+D, [2025-03-13T11:09:10.696482 #7854] DEBUG -- :   [1m[35m (4.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS sqlreport_test[0m
+D, [2025-03-13T11:09:28.791853 #8010] DEBUG -- :   [1m[35m (3.6ms)[0m  [1m[35mCREATE DATABASE sqlreport_test[0m
+D, [2025-03-13T11:10:26.189038 #8469] DEBUG -- :   [1m[35m (5.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "cars"[0m
+D, [2025-03-13T11:10:26.189521 #8469] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "cars" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "model" varchar)[0m
+D, [2025-03-13T11:11:56.807229 #8814] DEBUG -- :   [1m[35m (3.5ms)[0m  [1m[35mDROP TABLE test_table;[0m
+D, [2025-03-13T11:12:06.504622 #8969] DEBUG -- :   [1m[35m (1.4ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:12:06.506469 #8969] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:12:06.506895 #8969] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:13:18.272691 #9142] DEBUG -- :   [1m[35m (3.7ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:13:18.274843 #9142] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:13:18.274967 #9142] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:13:18.338316 #9142] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table;[0m
+D, [2025-03-13T11:13:23.530221 #9294] DEBUG -- :   [1m[35m (1.5ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:13:23.532133 #9294] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:13:23.532252 #9294] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:13:23.591846 #9294] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table;[0m
+D, [2025-03-13T11:14:48.291160 #9452] DEBUG -- :   [1m[35m (4.6ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:14:48.293408 #9452] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:14:48.293540 #9452] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:14:48.356525 #9452] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table;[0m
+D, [2025-03-13T11:27:50.151551 #9754] DEBUG -- :   [1m[35m (5.1ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:27:50.152923 #9754] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:27:50.153048 #9754] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:27:50.219416 #9754] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table;[0m
+D, [2025-03-13T11:31:45.352604 #10169] DEBUG -- :   [1m[35m (4.2ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:31:45.353958 #10169] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:31:45.354072 #10169] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:32:21.662676 #10357] DEBUG -- :   [1m[35m (3.7ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:32:21.664012 #10357] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:32:21.664147 #10357] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:32:30.690571 #10508] DEBUG -- :   [1m[35m (1.8ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:32:30.691626 #10508] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:32:30.691731 #10508] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:32:30.751720 #10508] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table;[0m
+D, [2025-03-13T11:33:30.546681 #10674] DEBUG -- :   [1m[35m (3.8ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:33:30.547978 #10674] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:33:30.548091 #10674] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:33:30.616541 #10674] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:34:50.500138 #10844] DEBUG -- :   [1m[35m (3.9ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:34:50.501362 #10844] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:34:50.501494 #10844] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:34:50.568164 #10844] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:37:14.173060 #11101] DEBUG -- :   [1m[35m (4.0ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:37:14.174331 #11101] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:37:14.174447 #11101] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:37:14.236817 #11101] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:40:08.704654 #11335] DEBUG -- :   [1m[35m (3.9ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:40:08.706085 #11335] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:40:08.706225 #11335] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:40:08.772028 #11335] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:40:16.087795 #11491] DEBUG -- :   [1m[35m (1.7ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:40:16.088882 #11491] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:40:16.088994 #11491] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:40:16.151175 #11491] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:40:34.525939 #11657] DEBUG -- :   [1m[35m (4.1ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:40:34.527226 #11657] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:40:34.527346 #11657] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:40:34.586529 #11657] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:40:49.454189 #11823] DEBUG -- :   [1m[35m (3.9ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:40:49.456475 #11823] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:40:49.456595 #11823] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:40:49.518370 #11823] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:48:02.668627 #12050] DEBUG -- :   [1m[35m (4.2ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:48:02.669861 #12050] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:48:02.669974 #12050] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:48:02.741930 #12050] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:56:53.036129 #12228] DEBUG -- :   [1m[35m (4.6ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:56:53.037496 #12228] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:56:53.037617 #12228] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:56:53.102107 #12228] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:57:17.547337 #12388] DEBUG -- :   [1m[35m (3.7ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:57:17.548694 #12388] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:57:17.548816 #12388] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:57:17.610064 #12388] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:58:07.245218 #12570] DEBUG -- :   [1m[35m (4.3ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:58:07.246465 #12570] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:58:07.246582 #12570] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:58:07.315465 #12570] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:58:18.097697 #12728] DEBUG -- :   [1m[35m (3.9ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:58:18.098927 #12728] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:58:18.099039 #12728] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:58:18.159304 #12728] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T11:58:29.295836 #12881] DEBUG -- :   [1m[35m (3.5ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T11:58:29.297099 #12881] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T11:58:29.297206 #12881] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T11:58:29.357173 #12881] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:46:19.541818 #39222] DEBUG -- :   [1m[35m (4.2ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:46:19.543110 #39222] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:46:19.543223 #39222] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:46:19.616030 #39222] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:48:52.907882 #39319] DEBUG -- :   [1m[35m (3.9ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:48:52.909161 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:48:52.909282 #39319] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:48:52.909336 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909376 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909414 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909449 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909480 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909513 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909543 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909574 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909605 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909636 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909683 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909714 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909744 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909775 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909805 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909835 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909865 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909896 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909925 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909960 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.909989 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910019 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910048 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910078 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910107 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910136 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910166 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910196 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910224 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910254 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910283 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910313 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910342 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910371 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910400 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910430 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910459 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910488 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910517 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910546 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910575 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910605 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910634 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910664 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910692 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910722 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910753 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910783 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910812 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910842 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910871 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910901 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910930 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910960 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.910990 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911022 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911054 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911084 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911113 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911143 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911172 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911208 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911237 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911286 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911316 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911376 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911406 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911437 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911468 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911499 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911528 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911559 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911589 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911622 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911653 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911701 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911731 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911804 #39319] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911833 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911901 #39319] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911931 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911962 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.911993 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912050 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912085 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912122 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912152 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912200 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912230 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912280 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912310 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912630 #39319] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912660 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912721 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912751 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912782 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912813 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912865 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912897 #39319] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.912961 #39319] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:48:52.976200 #39319] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:49:03.973561 #39351] DEBUG -- :   [1m[35m (3.6ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:49:03.974851 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:49:03.974960 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:49:03.975009 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975048 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975084 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975117 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975149 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975181 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975214 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975245 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975297 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:03.975329 #39351] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:04.034600 #39351] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:49:23.346526 #39396] DEBUG -- :   [1m[35m (3.9ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:49:23.347810 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:49:23.347933 #39396] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:49:23.347982 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348023 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348061 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348096 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348127 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348159 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348190 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348223 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348253 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.348291 #39396] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:23.412006 #39396] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:49:56.461061 #39439] DEBUG -- :   [1m[35m (3.7ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:49:56.462354 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:49:56.462478 #39439] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:49:56.462528 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462569 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462607 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462641 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462673 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462708 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462739 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462771 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462801 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.462832 #39439] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:49:56.524071 #39439] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:50:18.389772 #39477] DEBUG -- :   [1m[35m (3.7ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:50:18.391025 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:50:18.391146 #39477] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:50:18.391196 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391236 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391273 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391309 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391341 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391373 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391404 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391436 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391467 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.391501 #39477] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:18.450749 #39477] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:50:18.450856 #39477] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:50:37.808033 #39524] DEBUG -- :   [1m[35m (4.1ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:50:37.809352 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:50:37.809471 #39524] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:50:37.809520 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809563 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809600 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809636 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809668 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809700 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809731 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809764 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809795 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.809827 #39524] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:37.869275 #39524] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:50:37.869366 #39524] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:50:37.869421 #39524] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:50:45.154395 #39557] DEBUG -- :   [1m[35m (1.6ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:50:45.155486 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:50:45.155604 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:50:45.155654 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155695 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155733 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155767 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155799 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155831 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155866 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155898 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155928 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.155960 #39557] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:50:45.215587 #39557] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:50:45.215692 #39557] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:50:45.215821 #39557] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:51:10.071756 #39597] DEBUG -- :   [1m[35m (5.3ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:51:10.073086 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:51:10.073233 #39597] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:51:10.073283 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073347 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073383 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073417 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073449 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073482 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073513 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073548 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073580 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.073611 #39597] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:51:10.132820 #39597] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:51:10.132933 #39597] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:51:10.133028 #39597] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:53:28.379333 #39643] DEBUG -- :   [1m[35m (4.3ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:53:28.380604 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:53:28.380721 #39643] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:53:28.380768 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.380809 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.380847 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.380880 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.380911 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.380941 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.380971 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.381001 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.381031 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.381061 #39643] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:28.440813 #39643] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:53:28.440915 #39643] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:53:28.440976 #39643] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:53:42.021771 #39677] DEBUG -- :   [1m[35m (4.3ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:53:42.023611 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:53:42.023721 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:53:42.023770 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.023810 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.023844 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.023878 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.023910 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.023945 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.023976 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.024007 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.024054 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.024086 #39677] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:53:42.083899 #39677] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:53:42.083989 #39677] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:53:42.084095 #39677] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:54:34.616932 #39726] DEBUG -- :   [1m[35m (4.6ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:54:34.618248 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:54:34.618376 #39726] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:54:34.618428 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618471 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618509 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618545 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618580 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618615 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618648 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618683 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618717 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.618750 #39726] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:54:34.679566 #39726] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:54:34.679655 #39726] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:54:34.679705 #39726] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:55:45.454695 #39779] DEBUG -- :   [1m[35m (4.2ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:55:45.456058 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:55:45.456166 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:55:45.456224 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456266 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456304 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456337 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456369 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456401 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456432 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456463 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456494 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.456525 #39779] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:55:45.524394 #39779] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:55:45.524486 #39779] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:55:45.524610 #39779] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:59:14.964339 #40418] DEBUG -- :   [1m[35m (4.1ms)[0m  [1m[35mDROP TABLE IF EXISTS test_table;[0m
+D, [2025-03-13T21:59:14.965601 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "test_table"[0m
+D, [2025-03-13T21:59:14.965713 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "test_table" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "name" varchar, "json_object" json)[0m
+D, [2025-03-13T21:59:14.965761 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.965801 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.965838 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.965872 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.965904 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.965936 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.965967 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.965999 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.966029 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:14.966061 #40418] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO test_table (user_id, name) VALUES (1, 'test name');[0m
+D, [2025-03-13T21:59:15.032824 #40418] DEBUG -- :   [1m[35mSQL (0.1ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:59:15.032985 #40418] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
+D, [2025-03-13T21:59:15.033049 #40418] DEBUG -- :   [1m[35mSQL (0.0ms)[0m  [1m[34mSELECT * FROM test_table[0m
