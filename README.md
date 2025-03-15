@@ -1,43 +1,104 @@
-# Sqlreport
+# SQLreport
 
-TODO: Delete this and the text below, and describe your gem
+This gem provides an easy way to convert SQL database queries to CSV. Below you can find the details of running this library.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sqlreport`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Generating a Result object](#generating-a-result-object)
+  - [Convert result data to CSV](#convert-result-data-to-csv)
+  - [Get columns / headers](#get-column-headers)
+  - [Get rows](#get-rows)
+- [Compatibility](#compatibility)
+- [Todo](#todo)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Add this line to your application's Gemfile:
 
-Install the gem and add to the application's Gemfile by executing:
-
-```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+```ruby
+gem 'sqlreport'
 ```
 
-If bundler is not being used to manage dependencies, install the gem by executing:
+And then execute:
 
-```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
-```
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install sqlreport
 
 ## Usage
 
-TODO: Write usage instructions here
+This library will connect your primary database connection. You can enter a query and get a result.
+With this result you can get the headers, columns and convert the results to a CSV
 
-## Development
+### Generating a Result object
+To generate a new result call this following method:
+```ruby
+Sqlreport.query("SELECT * FROM test_table").result
+```
+Response
+```ruby
+  <Sqlreport::Result:0x000000011f4db730>
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+## Convert result data to CSV
+To convert data to CSV just run the following command:
+```ruby
+result = Sqlreport.query("SELECT * FROM test_table").result
+result.to_csv(include_headers: true, separator: ",", quote_char: '"')
+```
+Response
+```ruby
+  "id, name, other columns\t1,First name,other columns\t..."
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## Get columns / headers
+To rertieve the column names use the following commands:
+```ruby
+result = Sqlreport.query("SELECT * FROM test_table").result
+result.columns
+```
+Response
+```ruby
+  ['id', 'name', 'other columns']
+```
+
+## Get rows
+To rertieve the row data without the headers use the following commands:
+```ruby
+result = Sqlreport.query("SELECT * FROM test_table").result
+result.rows
+```
+Response
+```ruby
+  [[1, "First name", "Other columns"], [2, "Second name", "Other columns"]]
+```
+
+This gem is tested with the following Ruby versions on Linux and Mac OS X:
+
+- Ruby > 2.2.2
+
+## Todo
+
+- Batch jobs
+- Add support for multiple export options (PDF, textfile, LaTex)
+- Add safeguard validations
+- Tie into Rails models
+- Allow it to use different databases
+- ..
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sqlreport. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/sqlreport/blob/master/CODE_OF_CONDUCT.md).
+1. Fork it ( https://github.com/gem-shards/sqlreport/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Sqlreport project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/sqlreport/blob/master/CODE_OF_CONDUCT.md).
