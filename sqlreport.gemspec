@@ -5,20 +5,18 @@ require_relative "lib/sqlreport/version"
 Gem::Specification.new do |spec|
   spec.name = "sqlreport"
   spec.version = Sqlreport::VERSION
-  spec.authors = ["VvanGemert"]
-  spec.email = ["vincent@floorplanner.com"]
+  spec.authors = ["Gem shards"]
+  spec.email = ["vincent@gemshards.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "SQLreport allows you to easily extract data out of a SQL database"
+  spec.description = "With SQLreport you can manage query results and convert things."
+  spec.homepage = "https://github.com/gem-shards/sqlreport"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.0.0"
-
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.required_ruby_version = ">= 2.0.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/gem-shards/sqlreport"
+  spec.metadata["changelog_uri"] = "https://github.com/gem-shards/sqlreport/blob/master/CHANGELOG.md"
   spec.metadata["rubygems_mfa_required"] = true
 
   # Specify which files should be added to the gem when it is released.
@@ -34,9 +32,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
-  spec.add_dependency "activerecord", ">= 4.2"
-  # For more information and examples about making a new gem, check out our
-  # guide at: https://bundler.io/guides/creating_gem.html
+  spec.add_dependency "activerecord"
+  spec.add_dependency "activesupport"
+  spec.add_dependency "railties"
 end

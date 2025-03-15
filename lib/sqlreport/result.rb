@@ -24,8 +24,8 @@ module Sqlreport
       @response.rows
     end
 
-    def to_csv(include_headers: true)
-      CSV.generate do |csv|
+    def to_csv(include_headers: true, separator: ",", quote_char: '"')
+      CSV.generate(col_sep: separator, quote_char: quote_char) do |csv|
         csv << @response.columns if include_headers
         @response.rows.each { |row| csv << row }
       end
