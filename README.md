@@ -7,6 +7,7 @@ This gem provides an easy way to convert SQL database queries to CSV. Below you 
 - [Usage](#usage)
   - [Generating a Result object](#generating-a-result-object)
   - [Convert result data to CSV](#convert-result-data-to-csv)
+  - [Write result to CSV file](#write-result-to-csv-file)
   - [Get columns / headers](#get-column-headers)
   - [Get rows](#get-rows)
 - [Compatibility](#compatibility)
@@ -54,6 +55,17 @@ result.to_csv(include_headers: true, separator: ",", quote_char: '"')
 Response
 ```ruby
   "id, name, other columns\t1,First name,other columns\t..."
+```
+
+## Write result to CSV file
+To write the CSV data to a file just run the following command:
+```ruby
+result = Sqlreport.query("SELECT * FROM test_table").result
+result.write_csv("test_table.csv")
+```
+Response
+```ruby
+  true
 ```
 
 ## Get columns / headers

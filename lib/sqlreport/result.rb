@@ -30,5 +30,11 @@ module Sqlreport
         @response.rows.each { |row| csv << row }
       end
     end
+
+    def write_csv(path, include_headers: true, separator: ",", quote_char: '"')
+      data = to_csv(include_headers: include_headers, separator: separator, quote_char: quote_char)
+      File.write(path, data)
+      true
+    end
   end
 end

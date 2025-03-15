@@ -21,4 +21,11 @@ class TestSqlreport < Minitest::Test
     result = ::Sqlreport.query("SELECT * FROM test_table").result
     assert result.to_csv.index("id,user_id,name,json_object")
   end
+
+  def test_can_it_write_csv
+    result = ::Sqlreport.query("SELECT * FROM test_table").result
+    assert result.write_csv("test_table.csv")
+    assert File.file?("test_table.csv")
+    FileUtils.rm("test_table.csv")
+  end
 end
