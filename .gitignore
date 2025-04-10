@@ -8,3 +8,6 @@
 /tmp/
 /log/*
 /sqlreport_test
+/sqlreport_test.sqlite3
+/log
+/sig

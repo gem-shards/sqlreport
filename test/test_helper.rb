@@ -30,16 +30,14 @@ end
 
 CONNECTION_PARAMS = {
   adapter: "sqlite3",
-  database: "sqlreport_test"
+  database: "sqlreport_test.sqlite3"
 }.freeze
 
-require "sqlreport"
-
-ActiveRecord::Base.establish_connection(
-  CONNECTION_PARAMS
-)
-
+# Set up the test database
+ActiveRecord::Base.establish_connection(CONNECTION_PARAMS)
 connection = ActiveRecord::Base.connection
+
+# Create the test table
 connection.execute("DROP TABLE IF EXISTS test_table;")
 connection.create_table(:test_table, force: true) do |t|
   t.column :user_id, :integer
@@ -47,6 +45,7 @@ connection.create_table(:test_table, force: true) do |t|
   t.column :json_object, :json
 end
 
+# Insert test data
 10.times do
   connection.execute("INSERT INTO test_table (user_id, name) VALUES (1, 'test name');")
 end

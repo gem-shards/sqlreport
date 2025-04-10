@@ -6,4 +6,6 @@ require "active_support/lazy_load_hooks"
 ActiveSupport.on_load(:active_record) do
   require "sqlreport/base"
   require "sqlreport/result"
+  require "sqlreport/batch_manager"
+  require "sqlreport/active_record_extension"
 end
