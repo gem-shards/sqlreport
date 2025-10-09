@@ -88,6 +88,7 @@ class TestSqlreport < Minitest::Test
     FileUtils.rm("batch_test_table.csv")
   end
 
+  # rubocop:disable Metrics/MethodLength
   def test_batch_progress_tracking
     # Create a mock batch manager that returns a fixed total_rows value
     batch_manager = ::Sqlreport.batch_query("SELECT * FROM test_table", batch_size: 3)
@@ -109,6 +110,7 @@ class TestSqlreport < Minitest::Test
     assert_equal 6, batch_manager.processed_rows
     assert_equal 120.0, batch_manager.progress_percentage
   end
+  # rubocop:enable Metrics/MethodLength
 
   # ActiveRecord extension tests
   def test_activerecord_extension_sqlreport

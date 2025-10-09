@@ -11,3 +11,6 @@ Style/StringLiteralsInInterpolation:
 
 Gemspec/RequireMFA:
   Enabled: false
+
+Naming/PredicateMethod:
+  Enabled: false

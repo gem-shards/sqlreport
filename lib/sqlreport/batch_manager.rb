@@ -41,6 +41,7 @@ module Sqlreport
       @total_rows = result.rows.first.first.to_i
     end
 
+    # rubocop:disable Metrics/MethodLength
     def next_batch
       return nil if @complete
 
@@ -62,6 +63,7 @@ module Sqlreport
 
       result
     end
+    # rubocop:enable Metrics/MethodLength
 
     def process_all
       results = []
@@ -72,6 +74,7 @@ module Sqlreport
       results
     end
 
+    # rubocop:disable Metrics/MethodLength
     def stream_to_csv(path, include_headers: true, separator: ",", quote_char: '"')
       first_batch = true
 
@@ -95,6 +98,7 @@ module Sqlreport
 
       true
     end
+    # rubocop:enable Metrics/MethodLength
 
     def progress_percentage
       return 0 unless @total_rows && @total_rows.positive?
